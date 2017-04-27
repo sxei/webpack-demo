@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+	<%= require('view/tpl/meta.html')({title: '页面2', desc: '这是页面2'}) %>
+</head>
+<body>
+	<%= require('view/tpl/header.html')({name: '你好啊'}) %>
+
+	<div class="container">
+		<h2 id="page_title">这是页面2</h2>
+		<div class="row">
+			<div class="col-sm-12">
+				这是页面2这是页面2这是页面2
+			</div>
+		</div>
+	</div>
+	<%= require('view/tpl/footer.html')() %>
+</body>
+</html>
